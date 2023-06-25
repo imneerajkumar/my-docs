@@ -32,7 +32,7 @@ function Editor(props) {
     return () => {
       socketServer.disconnect();
     }
-  }, []);
+  }, [uri]);
 
   // Load Documents
   useEffect(() => {
